@@ -7,7 +7,7 @@
             <img src="./img/profile.png" class="rounded-circle" style="max-width: 100%; height:auto;">
         </div>
         <div class="col-9 pt-5">
-        <div><h1>My Profile</h1></div>
+        <div><h1>{{$user->username}}</h1></div>
             <div style="display:flex; ">
                 <div class="pr-3"><strong>0</strong> Designs</div>
                 <div class="pr-3"><strong>0</strong> Fans </div>
